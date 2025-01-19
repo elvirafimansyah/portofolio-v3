@@ -19,6 +19,26 @@
     "img": "/assets/img/emortfy.png"
   },
   {
+    "name": "Indonesia Emas 2045",
+    "slug": "indonesiaemas",
+    "tab": "Dev",
+    "tagline": "🇮🇩 Indonesia Emas 2045 is a collaboration project with my sister",
+    "url": "https://indonesiaemas2045.vercel.app/",
+    "category": "web development",
+    "type": "Next JS",
+    "img": "/assets/img/indonesiaemas.png"
+  },
+  {
+    "name": "Xavoslab",
+    "slug": "xavoslab",
+    "tab": "Dev",
+    "tagline": "🎓 Xavoslab is a collaboration project with my sister",
+    "url": "https://xavoslab.vercel.app/",
+    "category": "web development",
+    "type": "Next JS",
+    "img": "/assets/img/xavoslab.png"
+  },
+  {
     "name": "Emore Notes",
     "slug": "notes-app",
     "tagline": "📝 Emore Notes is the best place to jot down quick thoughts.",

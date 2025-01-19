@@ -80,23 +80,21 @@ const Dev = () => {
                 <h2 className="mt-1 font-bold line-clamp-1 text-xl">{project.name}</h2>
                 <p className="text-desc text-base leading-normal font-medium">{project.tagline}</p>
                 <div className="flex items-center py-2">
-                  {repos.find((repo) => repo.name === project.slug) && (
-                    <>
-                      <a
-                        href={`https://github.com/elvirafimansyah/${project.slug}/stargazers`}
-                        target="blank"
-                      >
-                        <Badge variant="warning" className="flex space-x-2">
-                          <div color="text-[#ECC94B]">
-                            <i className="fa-solid fa-star" ></i>
-                          </div>
-                          <span className="text-[#744210] dark:text-yellow-foreground">
-                            {repos.find((repo) => repo.name == project.slug)?.stargazers_count ? Number(repos.find((repo) => repo.name == project.slug)?.stargazers_count).toLocaleString() : "0"} &nbsp;STARS
-                          </span>
-                        </Badge>
-                      </a>
-                    </>
-                  )}
+                  <>
+                    <a
+                      href={`https://github.com/elvirafimansyah/${project.slug}/stargazers`}
+                      target="blank"
+                    >
+                      <Badge variant="warning" className="flex space-x-2">
+                        <div color="text-[#ECC94B]">
+                          <i className="fa-solid fa-star" ></i>
+                        </div>
+                        <span className="text-[#744210] dark:text-yellow-foreground">
+                          {repos.find((repo) => repo.name == project.slug)?.stargazers_count ? Number(repos.find((repo) => repo.name == project.slug)?.stargazers_count).toLocaleString() : "0"} &nbsp;STARS
+                        </span>
+                      </Badge>
+                    </a>
+                  </>
                 </div>
                 <div className="pt-2 pb-1 flex flex-row space-x-2 items-center">
                   <a href={`https://github.com/elvirafimansyah/${project.slug}`} target="_blank">
