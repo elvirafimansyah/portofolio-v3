@@ -8,7 +8,7 @@ import Script from 'next/script';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 export const metadata: Metadata = {
   title: `Elvira Firmansyah | Portfolio`,
-  description: 'Upgrade skill & kompetensi kamu  dalam mendapatkan pekerjaan, menaikkan income, dan memulai usaha secara profesional dengan materi pembelajaran berkualitas dengan harga yang terjangkau.',
+  description: "I'm Elvira Firmansyah. I'm Web Developer & UI/UX Designer. Welcome to my corner of the internet. I'm glad you're here!",
   icons: {
     icon: [
       'favicon.ico?v=4'
