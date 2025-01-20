@@ -5,7 +5,7 @@ import Home from "./home";
 
 const Beranda = () => {
   useEffect(() => {
-      document.title = "Elvira Firmansyah | Portfolio"
+      document.title = "Elvira Firmansyah | Portofolio"
   }, [])
   return (
     <>

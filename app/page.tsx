@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import Beranda from "./home/page";
 export default function Home() {
   useEffect(() => {
-    document.title = "Portfolio | ELvira Firmansyah"
+    document.title = "Portofolio | ELvira Firmansyah"
   }, [])
   return (
    <>

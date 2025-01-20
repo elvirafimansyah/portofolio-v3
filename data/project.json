@@ -57,7 +57,7 @@
     "img": "/assets/img/dashboard.png"
   },
   {
-    "name": "Portfolio V2",
+    "name": "Portofolio V2",
     "slug": "elvirafimansyah.github.io",
     "tagline": "⚡️ My personal website built with React.js, Chakra UI, and Vercel.",
     "url": "https://elvira.vercel.app/",
@@ -65,6 +65,16 @@
     "type": "react js",
     "img": "/assets/img/preview.png"
   },
+  {
+    "name": "Portofolio V3",
+    "slug": "portofolio-v3",
+    "tagline": "⚡️ My personal website v3 built with Next.js, Shadcn UI, and Vercel.",
+    "url": "https://elvira.vercel.app/",
+    "category": "web development",
+    "type": "next js",
+    "img": "/assets/img/previewv3.png"
+  },
+  
   {
     "name": "Engxzu",
     "slug": "Engxzu_",

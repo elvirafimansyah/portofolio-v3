@@ -14,14 +14,14 @@
     <br />
     <a href="https://elvira.vercel.app" target="_blank">View Demo</a>
     ·
-    <a href="https://github.com/elvirafimansyah/portfolio-v3/issues">Report Bug</a>
+    <a href="https://github.com/elvirafimansyah/portofolio-v3/issues">Report Bug</a>
     ·
-    <a href="https://github.com/elvirafimansyah/portfolio-v3/issues">Request Feature</a>
+    <a href="https://github.com/elvirafimansyah/portofolio-v3/issues">Request Feature</a>
   </p>
 </div>
 
 <!-- ABOUT THE PROJECT -->
-<img src="public/assets/img/preview.png" alt="Gambar" >
+<img src="public/assets/img/previewv3.png" alt="Gambar" >
 
 ### Built With
 
@@ -36,7 +36,7 @@
 ### Running Locally
 1. Clone the repo
    ```sh
-   git clone https://github.com/elvirafimansyah/portfolio-v3.git
+   git clone https://github.com/elvirafimansyah/portofolio-v3.git
    ```
 3. Install NPM packages
    ```sh
@@ -59,7 +59,7 @@ Distributed under the MIT License. See [MIT LICENSE](LICENSE) for more informati
 
 Elvira Firmansyah - [@virn_el](https://instagram.com/virn_el) - elvirafirmansyah@gmail.com
 
-Portfolio: [Elvira Firmansyah](https://elvira.vercel.app)
+Portofolio: [Elvira Firmansyah](https://elvira.vercel.app)
 
 <p align="right"><a href="#top">🔝</a></p>
 

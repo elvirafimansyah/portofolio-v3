@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import Script from 'next/script';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 export const metadata: Metadata = {
-  title: `Elvira Firmansyah | Portfolio`,
+  title: `Elvira Firmansyah | Portofolio`,
   description: "I'm Elvira Firmansyah. I'm Web Developer & UI/UX Designer. Welcome to my corner of the internet. I'm glad you're here!",
   icons: {
     icon: [
