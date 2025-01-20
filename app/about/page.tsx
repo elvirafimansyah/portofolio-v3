@@ -14,7 +14,7 @@ const About = () => {
   return (
     <div className="dark:bg-gradient-to-tr md:h-lvh from-mediumpastel via-viapastel to-pastel">
       <Container>
-        <section id="about" className="pt-28 pb-16 md:pt-24 md:pb-12 lg:pt-28 lg:pb-16 xl:pb-20 overflow-hidden">
+        <section id="about" className="pt-24 pb-16 md:pt-24 md:pb-12 lg:pt-28 lg:pb-16 xl:pb-20 overflow-hidden">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between space-y-10 md:space-y-0 ">
             <div className="md:w-[56%] lg:w-[62%] xl:w-[56%] space-y-2">
               <h1 className="font-bold text-3xl  lg:leading-[52px] xl:text-4xl xl:leading-[60px] tracking-title text-primary">About <span className="text-foreground">Me</span></h1>

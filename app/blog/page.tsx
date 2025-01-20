@@ -40,7 +40,7 @@ const Blog = () => {
     const dateObject = new Date(parseInt(date[0]), parseInt(date[1]) - 1, parseInt(date[2]));
 
     const day = dateObject.toLocaleString("en-US", { day: 'numeric' });
-    const month = dateObject.toLocaleString("en-US", { month: 'long' });
+    const month = dateObject.toLocaleString("en-US", { month: 'short' });
     const year = dateObject.getFullYear();
 
     const fullDate = `${month} ${day}, ${year}`;
@@ -113,7 +113,11 @@ const Blog = () => {
                       <div key={key} className="border border-bordersoft dark:bg-soft flex flex-col md:flex-row md:space-x-5 p-5 md:p-6 rounded-xl relative space-y-4 md:space-y-0  dark:shadow-none">
                         <div className="space-y-3" >
                           <div className="space-y-2">
-                            <Badge variant="primary">{_.category}</Badge>
+                            <div className="flex space-x-2">
+                              <Badge variant="primary">{_.category}</Badge>
+                              <p className="tracking-desc">{_.createdAt ? convertTanggal(_.createdAt) : ''}</p>
+                            </div>
+
                             <div className="space-y-1">
                               <h2 className="text-lg lg:text-xl font-extrabold hover:underline hover:decoration-primary underline-offset-4 line-clamp-2 text-ellipsis "><Link href={`/blog/${_.slug}`}>{_.title}</Link></h2>
                               <p className="text-desc line-clamp-3 text-ellipsis text-sm lg:text-base ">{_.description}</p>
@@ -131,8 +135,6 @@ const Blog = () => {
                                 />
                                 <p>{_.authorName}</p>
                               </div>
-                              <Dot />
-                              <p>{_.createdAt ? convertTanggal(_.createdAt) : ''}</p>
                             </div>
                           </div>
                           <div className="absolute text-xs md:text-sm right-6 bottom-6 text-desc">{_.estimated}</div>

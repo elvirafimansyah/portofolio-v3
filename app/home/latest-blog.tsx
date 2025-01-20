@@ -35,7 +35,7 @@ const LatestBlog = () => {
     const dateObject = new Date(parseInt(date[0]), parseInt(date[1]) - 1, parseInt(date[2]));
 
     const day = dateObject.toLocaleString("en-US", { day: 'numeric' });
-    const month = dateObject.toLocaleString("en-US", { month: 'long' });
+    const month = dateObject.toLocaleString("en-US", { month: 'short' });
     const year = dateObject.getFullYear();
 
     return `${month} ${day}, ${year}`;
@@ -74,7 +74,10 @@ const LatestBlog = () => {
                   <div key={key} className="border border-bordersoft bg-background dark:bg-soft flex flex-col md:flex-row md:space-x-5 p-5 md:p-6 rounded-xl relative space-y-4 md:space-y-0  dark:shadow-none">
                     <div className="space-y-3">
                       <div className="space-y-2">
-                        <Badge variant="primary">{post.category}</Badge>
+                        <div className="flex space-x-2">
+                          <Badge variant="primary">{post.category}</Badge>
+                          <p className="tracking-desc">{post.createdAt ? convertTanggal(post.createdAt) : ''}</p>
+                        </div>
                         <div className="space-y-1">
                           <h2 className="text-lg lg:text-xl font-extrabold hover:underline hover:decoration-primary underline-offset-4 line-clamp-2 text-ellipsis ">
                             <Link href={`/blog/${post.slug}`}>{post.title}</Link>
@@ -94,8 +97,6 @@ const LatestBlog = () => {
                             />
                             <p>{post.authorName}</p>
                           </div>
-                          <Dot />
-                          <p>{post.createdAt ? convertTanggal(post.createdAt) : ''}</p>
                         </div>
                       </div>
                       <div className="absolute text-xs md:text-sm right-6 bottom-6 text-desc">{post.estimated}</div>

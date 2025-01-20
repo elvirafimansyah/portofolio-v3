@@ -1,6 +1,6 @@
 import Container from "./container";
 import Link from "next/link";
-import { FaInstagram, FaGithub,FaDribbble } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaDribbble } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { SiBuymeacoffee } from "react-icons/si";
 
@@ -8,22 +8,22 @@ const Footer = () => {
   const socialmedia = [
     {
       name: "github",
-      icon: <FaGithub size="20px" />,
+      icon: <FaGithub size="18px" />,
       link: "https://github.com/elvirafimansyah",
     },
     {
       name: "twitter",
-      icon: <FaXTwitter size="20px" />,
+      icon: <FaXTwitter size="18px" />,
       link: "https://twitter.com/elvirafirmansy1",
     },
     {
       name: "instagram",
-      icon: <FaInstagram size="20px" />,
+      icon: <FaInstagram size="18px" />,
       link: "https://www.instagram.com/virn_el",
     },
     {
       name: "dribbble",
-      icon: <FaDribbble size="20px" />,
+      icon: <FaDribbble size="18px" />,
       link: "https://dribbble.com/ElviraFir",
     }
   ]
@@ -56,8 +56,9 @@ const Footer = () => {
               </div>
             </Link>
           </div>
-          <div className="bg-soft py-5 px-8 border border-border dark:border-soft rounded-lg flex justify-between items-center">
+          <div className="bg-soft py-5 px-8 border border-border dark:border-soft rounded-lg flex flex-col md:flex-row justify-between md:items-center space-y-3 md:space-y-0">
             <span className="text-desc font-medium ">© {currentYear()} Elvira Firmansyah. All rights reserved.</span>
+
             <div className="flex gap-5">
               {socialmedia.map((_, idx) => (
                 <Link key={idx} href={_.link} target="_blank" className="text-desc hover:text-primary">

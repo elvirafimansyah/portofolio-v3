@@ -151,7 +151,7 @@ const Skills = () => {
           <div className="flex flex-col md:flex-row flex-wrap md:space-x-2 space-y-2 md:space-y-0 items-start md:items-center">
             {_.code.map((item, key,) => (
 
-              <div className="border border-border flex flex-row color-gray-700 px-5 py-2 rounded-lg items-center  dark:bg-card  hover:bg-navlight dark:hover:bg-card2 hover:cursor-default" key={key}>
+              <div className="border border-border flex flex-row  px-5 py-2 rounded-lg items-center bg-background  dark:bg-soft hover:bg-hoversoft dark:hover:bg-hoversoft hover:cursor-default" key={key}>
                 <div className={`text-${item.color}`}>
                   {item.icon}
                 </div>
@@ -162,7 +162,7 @@ const Skills = () => {
 
             {_.code_img.map((item, key,) => (
               <a href={item.url} target="_blank" key={key}>
-                <div className="border border-border flex flex-row color-gray-700 px-5 py-2 rounded-lg items-center hover:bg-navlight dark:hover:bg-card2 dark:bg-card">
+                <div className="border border-border flex flex-row color-gray-700 px-5 py-2 rounded-lg items-center bg-background  dark:bg-soft hover:bg-hoversoft dark:hover:bg-hoversoft">
                   <div className="flex items-center">
                     <div className="w-5">
                       <Image
@@ -190,7 +190,7 @@ const Skills = () => {
           <div className="flex flex-col md:flex-row flex-wrap md:space-x-2 space-y-2 md:space-y-0 items-start md:items-center">
             {_.code.map((item, key,) => (
               <a href={item.url} target="_blank" key={key}>
-                <div className="border border-border flex flex-row color-gray-700 px-5 py-2 rounded-lg items-center dark:bg-card hover:bg-navlight dark:hover:bg-card2">
+                <div className="border border-border flex flex-row color-gray-700 px-5 py-2 rounded-lg items-center bg-background  dark:bg-soft hover:bg-hoversoft dark:hover:bg-hoversoft">
                   <div className={`text-${item.color}`}>
                     {item.icon}
                   </div>
@@ -202,7 +202,7 @@ const Skills = () => {
 
             {_.code_img.map((item, key,) => (
               <a href={item.url} target="_blank" key={key}>
-                <div className="border border-border flex flex-row color-gray-700 px-5 py-2 rounded-lg items-center dark:bg-card hover:bg-navlight dark:hover:bg-card2">
+                <div className="border border-border flex flex-row color-gray-700 px-5 py-2 rounded-lg items-center bg-background  dark:bg-soft hover:bg-hoversoft dark:hover:bg-hoversoft">
                   <div className="flex items-center">
                     <div className="w-5">
                       <Image
