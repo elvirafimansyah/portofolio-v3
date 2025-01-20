@@ -41,7 +41,7 @@ const Footer = () => {
 
         <div className="py-8">
           <div className="flex items-center space-x-6 justify-center mb-6">
-            <Link href="https://github.com/elvirafimansyah/covore" target="_blank">
+            <Link href="https://github.com/elvirafimansyah/portofolio-v3" target="_blank">
               <div className="flex items-center space-x-2 ">
                 <FaGithub size="24" />
                 <span className="capitalize font-medium hover:underline decoration-primary decoration-2 underline-offset-[3px] text-foreground">source code</span>
