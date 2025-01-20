@@ -69,7 +69,7 @@ const Dev = () => {
                   width={1200}
                   height={800}
                   alt="laptop"
-                  className="w-full h-[235px] rounded-t-xl object-cover"
+                  className="w-full h-[235px] rounded-t-xl "
                 />
               </div>
               <div className="  p-6">

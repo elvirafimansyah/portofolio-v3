@@ -38,7 +38,7 @@ const Certificate = () => {
                       width={3000}
                       height={3000}
                       alt="laptop"
-                      className="w-full rounded-lg object-cover"
+                      className="w-full rounded-t-lg object-cover"
                     />
                   </div>
                   <div className="p-6">
