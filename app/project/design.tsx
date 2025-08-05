@@ -18,7 +18,8 @@ interface projectData {
 interface dribbbleData {
   title?: string,
   images?: {
-    hidpi?: string
+    hidpi?: string,
+    four_x?: string,
   },
   html_url?: string,
   published_at?: string,
@@ -69,10 +70,11 @@ const Design :  React.FC<designProps> = ({variant}) => {
               <div>
                 <Image
                   src={project.images?.hidpi ? project.images.hidpi : "/assets/img/covore.png"}
-                  width={1200}
-                  height={800}
+                  width={2000}
+                  height={1200}
                   alt="laptop"
-                  className="w-full h-[235px] rounded-t-xl "
+                  className="w-full h-[280px] rounded-t-xl"
+                  loading="lazy"
                 />
               </div>
               <div className="p-6">
@@ -90,7 +92,6 @@ const Design :  React.FC<designProps> = ({variant}) => {
             </div>
           ))
         }
-
       </div>
     </>
 

@@ -25,7 +25,7 @@ const Home = () => {
     {
       name: "instagram",
       icon: <FaInstagram size="25px" />,
-      link: "https://www.instagram.com/virn_el",
+      link: "https://www.instagram.com/virmoree/",
     },
 
     {
@@ -54,7 +54,7 @@ const Home = () => {
                   onInit={(typewriter) => {
 
                     typewriter
-                      .typeString(`I'm Web Developer`)
+                      .typeString(`I'm Software Developer`)
                       .pauseFor(2000)
                       .deleteAll()
                       .typeString("I'm UI/UX Designer")
@@ -83,6 +83,7 @@ const Home = () => {
                 width={1000}
                 height={1000}
                 alt="gambar"
+                loading="lazy"
               />
             </div>
 

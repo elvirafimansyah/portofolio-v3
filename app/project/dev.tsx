@@ -63,13 +63,13 @@ const Dev = () => {
           ) :
           project_data.map((project, key) => (
             <div key={key} className="border cursor-pointer relative border-bordersoft bg-soft hover:bg-hoversoft rounded-xl overflow-hidden ">
-              <div>
+              <div className="block overflow-hidden">
                 <Image
                   src={project.img ? project.img : "/assets/img/covore.png"}
                   width={1200}
                   height={800}
                   alt="laptop"
-                  className="w-full h-[235px] rounded-t-xl "
+                  className="w-full h-[240px] rounded-t-xl object-fit hover:scale-125 ease-in-out duration-150"
                 />
               </div>
               <div className="  p-6">

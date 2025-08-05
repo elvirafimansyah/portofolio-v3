@@ -39,6 +39,7 @@ const Certificate = () => {
                       height={3000}
                       alt="laptop"
                       className="w-full rounded-t-lg object-cover"
+                      loading="lazy"
                     />
                   </div>
                   <div className="p-6">

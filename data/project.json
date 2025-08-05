@@ -1,5 +1,33 @@
 [
   {
+    "name": "NVitio",
+    "slug": "",
+    "tagline": "📩 NVitio is web-based platform that helps you create digital invitations",
+    "url": "https://nvitio.id/",
+    "category": "web development",
+    "type": "laravel",
+    "img": "/assets/img/nvitio.png"
+  },
+  {
+    "name": "Emore Store",
+    "slug": "EmoreStore",
+    "tagline": "🛒 Esemka Store is a modern e-commerce web app",
+    "url": "",
+    "category": "web development",
+    "type": "laravel",
+    "img": "/assets/img/esemkastore.png"
+  },
+  {
+    "name": "CV. Ras Komputer",
+    "slug": "CVRasKomputer",
+    "tab": "Dev",
+    "tagline": "💻 A reliable desktop-based Point of Sales system",
+    "url": "",
+    "category": "desktop development",
+    "type": "C#",
+    "img": "/assets/img/cvraskomputer.png"
+  },
+  {
     "name": "Covore",
     "slug": "covore",
     "tagline": "📊 Covore is covid tracker app that built with Next.js & Shadcn UI",
@@ -8,6 +36,7 @@
     "type": "next js",
     "img": "/assets/img/covore.png"
   },
+  
   {
     "name": "Emortfy",
     "slug": "emortfy",
@@ -29,16 +58,6 @@
     "img": "/assets/img/indonesiaemas.png"
   },
   {
-    "name": "Xavoslab",
-    "slug": "xavoslab",
-    "tab": "Dev",
-    "tagline": "🎓 Xavoslab is a collaboration project with my sister",
-    "url": "https://xavoslab.vercel.app/",
-    "category": "web development",
-    "type": "Next JS",
-    "img": "/assets/img/xavoslab.png"
-  },
-  {
     "name": "Emore Notes",
     "slug": "notes-app",
     "tagline": "📝 Emore Notes is the best place to jot down quick thoughts.",
@@ -55,15 +74,6 @@
     "category": "web development",
     "type": "react js",
     "img": "/assets/img/dashboard.png"
-  },
-  {
-    "name": "Portofolio V2",
-    "slug": "elvirafimansyah.github.io",
-    "tagline": "⚡️ My personal website built with React.js, Chakra UI, and Vercel.",
-    "url": "https://elvira.vercel.app/",
-    "category": "web development",
-    "type": "react js",
-    "img": "/assets/img/preview.png"
   },
   {
     "name": "Portofolio V3",
@@ -83,14 +93,5 @@
     "category": "web development",
     "type": "HTML",
     "img": "/assets/img/engxzu.png"
-  },
-  {
-    "name": "Emore Quiz",
-    "slug": "quiz-app",
-    "tagline": "❓ The quiz game bulit with vannila javascript",
-    "url": "https://quizemore.vercel.app/",
-    "category": "web development",
-    "type": "javascript",
-    "img": "/assets/img/emorequiz.png"
   }
 ]

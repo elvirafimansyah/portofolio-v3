@@ -19,7 +19,7 @@ const Footer = () => {
     {
       name: "instagram",
       icon: <FaInstagram size="18px" />,
-      link: "https://www.instagram.com/virn_el",
+      link: "https://www.instagram.com/virmoree/",
     },
     {
       name: "dribbble",

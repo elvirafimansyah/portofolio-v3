@@ -50,6 +50,7 @@ const About = () => {
                   height={1000}
                   alt="gambar"
                   className="transition ease-in-out duration-1000 hover:scale-90  hover:rotate-[8deg] hover:cursor-pointer hover:drop-shadow-techgirl "
+                  loading="lazy"
                   
                 />
               </div>

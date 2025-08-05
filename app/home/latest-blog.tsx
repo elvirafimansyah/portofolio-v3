@@ -94,6 +94,7 @@ const LatestBlog = () => {
                               width={1200}
                               height={800}
                               className="rounded-full w-9 h-9 object-cover "
+                              loading="lazy"
                             />
                             <p>{post.authorName}</p>
                           </div>
