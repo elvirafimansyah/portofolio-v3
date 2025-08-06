@@ -75,6 +75,11 @@ const Skills = () => {
           name: "Chakra-UI",
           img: "https://avatars.githubusercontent.com/u/54212428?s=200&v=4",
           url: "https://chakra-ui.com/"
+        },
+        {
+          name: "Shadcn UI",
+          img: "https://avatars.githubusercontent.com/u/139895814?s=200&v=4",
+          url: "https://ui.shadcn.com/"
         }
       ]
     },

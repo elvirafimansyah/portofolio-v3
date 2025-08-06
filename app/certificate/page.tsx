@@ -6,7 +6,7 @@ import certificateList from "../../data/certificate.json";
 import { Badge } from "@/components/ui/badge"
 interface certificateData {
   name?: string;
-  category?: string;
+  category?: string[];
   img?: string;
 }
 const certificate_data = certificateList as certificateData[];
@@ -44,7 +44,9 @@ const Certificate = () => {
                   </div>
                   <div className="p-6">
                     <div className="flex items-baseline">
-                      <Badge variant="primary">{_.category}</Badge>
+                      {_.category?.map((cat, key) => (
+                        <Badge variant="primary" key={key}>{cat}</Badge>
+                      ))}
                     </div>
                     <h2 className="mt-1 font-bold text-xl">{_.name}</h2>
                   </div>
