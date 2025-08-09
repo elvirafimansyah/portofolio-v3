@@ -3,7 +3,7 @@ title: "Panduan Lengkap Mengubah Website Anda Menjadi Aplikasi"
 category: "application"
 subCategory: ["mobile", "web", "tutorial"]
 description: "Dengan perkembangan teknologi, semakin banyak bisnis dan individu yang beralih ke platform digital untuk memperluas jangkauan dan meningkatkan keterlibatan pengguna. Salah satu cara efektif untuk mencapai hal ini adalah dengan mengubah situs web Anda menjadi aplikasi mobile. Jika Anda ingin melakukan hal ini tanpa harus menulis kode atau menghabiskan banyak waktu, maka artikel ini dapat menjadi solusi yang tepat untuk mengatasi masalah Anda."
-createdAt: "2023, 12, 2"
+createdAt: "2025, 1, 30"
 authorName: "Elvira Firmansyah"
 estimated: "1 min"
 cover: "/assets/upload/art1/cover1.png"
