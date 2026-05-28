@@ -1,15 +1,5 @@
 [
   {
-    "name": "1st Place in Palembang Skills Competition 2024 IT Software Solutions for Business",
-    "category": ["C#", ".NET Framework", "SAP Crystal Reports"],
-    "img": "/assets/certificates/lkskota.jpg"
-  },
-  {
-    "name": "2st Place in South Sumatra Skills Competition 2024 IT Software Solutions for Business",
-    "category": ["C#", ".NET Framework", "Kotlin", "Laravel", "Bootstrap"],
-    "img": "/assets/certificates/lksprovinsi.jpg"
-  },
-  {
     "name": "2st Place in Himika Cup Web Design Competition 2024",
     "category": ["Figma", "UI/UX Design", "Next.js", "Shadcn UI"],
     "img": "/assets/certificates/himikacup.png"
