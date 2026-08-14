@@ -43,7 +43,7 @@ const Certificate = () => {
                     />
                   </div>
                   <div className="p-6">
-                    <div className="flex items-baseline">
+                    <div className="flex items-baseline flex-wrap gap-y-2">
                       {_.category?.map((cat, key) => (
                         <Badge variant="primary" key={key}>{cat}</Badge>
                       ))}

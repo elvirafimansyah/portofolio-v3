@@ -59,6 +59,8 @@ const Home = () => {
                       .deleteAll()
                       .typeString("I'm UI/UX Designer")
                       .pauseFor(2000)
+                      .deleteAll()
+
                       .start();
                   }} />
               </div>

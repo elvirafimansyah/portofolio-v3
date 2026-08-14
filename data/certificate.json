@@ -1,15 +1,25 @@
 [
   {
+    "name": "3st Place in National Skills Competition (LKS Dikmen) 2024 - IT Software Solutions for Business",
+    "category": ["C#", ".NET Framework", "Kotlin", "ASP .NET Core", "Software Design"],
+    "img": "/assets/certificates/lksnasional2026.webp"
+  },
+  {
+    "name": "1st Place in South Sumatra Skills Competition (LKS Dikmen) 2026 - IT Software Solutions for Business",
+    "category": ["C#", ".NET Framework", "Kotlin", "Laravel", "Bootstrap"],
+    "img": "/assets/certificates/lksprov2026.webp"
+  },
+  {
+    "name": "1st Place in Palembang Skills Competition (LKS Dikmen) 2024 - IT Software Solutions for Business",
+    "category": ["C#", ".NET Framework", "SAP Crystal Reports", "Figma", "UI/UX Design"],
+    "img": "/assets/certificates/lkskota2026.webp"
+  },
+  {
     "name": "2st Place in Himika Cup Web Design Competition 2024",
     "category": ["Figma", "UI/UX Design", "Next.js", "Shadcn UI"],
     "img": "/assets/certificates/himikacup.png"
   },
-  {
-    "name": "1st Place in Palembang Dikmen Skills Competition 2025 IT Software Solutions for Business",
-    "category":  ["C#", ".NET Framework", "Figma", "SAP Crsytal Reports"],
-    "img": "/assets/certificates/lkskota2025.jpg"
-  },
-  {
+  { 
     "name": "3st Place in DeCode Web Design Competition 2024",
     "category": ["Figma", "UI/UX Design", "Next.js", "Shadcn UI"],
     "img": "/assets/certificates/webdesigndecode.png"

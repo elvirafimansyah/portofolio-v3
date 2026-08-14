@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import './globals.css'
 import Navbar from "./navbar/page";
 import Footer from '@/components/footer';
 import { ThemeProvider } from "@/components/theme-provider"
@@ -32,6 +31,18 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning >
       <head>
         <Script src="https://kit.fontawesome.com/95ced1a725.js" crossOrigin="anonymous"></Script>
+
+        
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-PENK8N5JCG" strategy="afterInteractive" ></Script>
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-PENK8N5JCG');
+          `}
+        </Script>
       </head>
       <body>
         <ThemeProvider

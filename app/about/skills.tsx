@@ -40,19 +40,18 @@ const Skills = () => {
       code_img: [
         {
           name: "Kotlin",
-          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin_Icon.png/600px-Kotlin_Icon.png?20210501145042",
+          img: "https://avatars.githubusercontent.com/u/1446536?s=200&v=4",
           url: "https://kotlinlang.org/"
         },
         {
           name: "C#",
-          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/205px-C_Sharp_Logo_2023.svg.png",
+          img: "https://explore-feed.github.com/topics/csharp/csharp.png",
           url: "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
         },
       ]
     },
   ]
   const official_data = [
-
     {
       id: 2,
       name: "Libraries",
@@ -105,7 +104,7 @@ const Skills = () => {
           color: "",
           url: "https://nextjs.org/"
         },
-        
+       
       ],
       code_img: [
         {
@@ -113,6 +112,17 @@ const Skills = () => {
           img: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
           url: "https://tailwindcss.com/"
         },
+        {
+          name: ".NET Framework",
+          img: "https://avatars.githubusercontent.com/u/9141961?s=60&v=4",
+          url: "https://dotnet.microsoft.com/id-id/download/dotnet-framework/"
+        },
+        {
+          name: "Jetpack Compose",
+          img: "https://upload.wikimedia.org/wikipedia/commons/9/98/Jetpack_Compose_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+          url: "https://dotnet.microsoft.com/id-id/download/dotnet-framework/"
+        },
+        
       ]
     },
     {
@@ -142,6 +152,11 @@ const Skills = () => {
           name: "VSCode",
           img: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
           url: "https://code.visualstudio.com/"
+        },
+          {
+          name: "Android Studio",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Android_Studio_Logo_%282023%29.svg/1280px-Android_Studio_Logo_%282023%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+          url: "https://developer.android.com/studio"
         }
       ]
     },

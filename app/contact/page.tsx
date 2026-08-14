@@ -54,7 +54,7 @@ const Contact = () => {
               <div className="flex flex-col space-y-1">
                 <div className="items-start">
                   <h3 className="text-2xl font-bold text-primary">Contact Information</h3>
-                  <p className="text-desc tracking-desc pb-2">Our friendly team would have to hear from you</p>
+                  <p className="text-desc tracking-desc pb-2">I would have to hear from you</p>
                   <hr className="bg-[#EEF1F6] border-[0.5] border-[#EEF1F6] dark:border-navdark dark:bg-navdark " />
                 </div>
                 <div className="py-5 items-start flex flex-col space-y-3">
