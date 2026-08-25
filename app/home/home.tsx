@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button"
 import Link from "next/link";
 import Typewritter from 'typewriter-effect';
-import { FaInstagram, FaTiktok, FaYoutube, FaFacebook, FaPhoneAlt, FaGithub, FaDribbble } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaYoutube, FaFacebook, FaPhoneAlt, FaGithub, FaDribbble, FaLinkedin  } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 import LatestBlog from "./latest-blog";
@@ -32,6 +32,11 @@ const Home = () => {
       name: "dribbble",
       icon: <FaDribbble size="23px" />,
       link: "https://dribbble.com/ElviraFir",
+    },
+    {
+      name: "linkedin",
+      icon: <FaLinkedin size="23px" />,
+      link: "https://www.linkedin.com/in/elvirafirmansyah/",
     }
   ];
 
@@ -39,7 +44,7 @@ const Home = () => {
     <div className="bg-gradient-to-tr md:h-lvh from-mediumpastel via-viapastel to-pastel">
       <div className="mx-auto px-6 sm:px-8 md:px-10 xl:px-0 md:w-[96%] lg:w-[70%]">
         <section id="home" className="pt-28 md:pt-24 pb-16 md:pb-12 lg:pt-28 lg:pb-20 xl:pb-24 overflow-hidden">
-          <div className="flex flex-col md:flex-row md:items-center justify-between space-y-2 md:space-x-2 md:space-y-0">
+          <div className="flex flex-col md:flex-row md:items-center justify-between space-y-10 md:space-x-2 md:space-y-0">
             <div className="md:w-3/4 space-y-2">
               <div>
                 <h1 className="font-bold text-3xl lg:text-4xl lg:leading-[52px] xl:text-[2.9rem] xl:leading-[60px] tracking-title">Hello, I&apos;m</h1>
@@ -79,11 +84,12 @@ const Home = () => {
               </div>
             </div>
 
-            <div className=" md:w-2/5 ">
+            <div className=" w-3/4 md:w-1/5 ">
               <Image
-                src="/assets/img/techgirl.png"
+                src="/assets/img/pizza.png"
                 width={1000}
                 height={1000}
+                className="transition ease-in-out duration-1000 hover:scale-90  hover:rotate-[8deg] hover:cursor-pointer hover:drop-shadow-techgirl rounded-lg"
                 alt="gambar"
                 loading="lazy"
               />
