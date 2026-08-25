@@ -43,7 +43,7 @@ const Home = () => {
   return (
     <div className="bg-gradient-to-tr md:h-lvh from-mediumpastel via-viapastel to-pastel">
       <div className="mx-auto px-6 sm:px-8 md:px-10 xl:px-0 md:w-[96%] lg:w-[70%]">
-        <section id="home" className="pt-28 md:pt-24 pb-16 md:pb-12 lg:pt-28 lg:pb-20 xl:pb-24 overflow-hidden">
+        <section id="home" className="pt-28 md:pt-24 pb-16 md:pb-12 lg:pt-32 lg:pb-20 xl:pb-24 overflow-hidden">
           <div className="flex flex-col md:flex-row md:items-center justify-between space-y-10 md:space-x-2 md:space-y-0">
             <div className="md:w-3/4 space-y-2">
               <div>
