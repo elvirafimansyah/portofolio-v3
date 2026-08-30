@@ -78,7 +78,7 @@ const Home = () => {
                 ))}
               </div>
               <div className="flex gap-x-3 pt-3">
-                <Button variant="primary" ><a href="assets/img/cv.png" target="_blank">Resume</a></Button>
+                <Button variant="primary" ><a href="assets/img/CV_Elvira.png" target="_blank">Resume</a></Button>
                 <Button variant="detail_outline" className="flex items-center"><Link href="/about">More Detail
                 </Link>&nbsp;&nbsp;<FaArrowRightLong /></Button>
               </div>
