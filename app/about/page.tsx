@@ -21,22 +21,20 @@ const About = () => {
 
               <p className="text-desc text-base xl:text-deskripsi leading-normal font-medium flex space-y-3 flex-col">
                 <span>  
-                  Hello! I am Elvira Firmansyah. I&apos;m from Indonesia. I&apos;m a student. I enjoy learning something new and getting feedback to make myself better and improve.
+                  Hello! I&apos;m Elvira Firmansyah from Indonesia. I am a passionate Software Developer and UI/UX Designer who enjoys learning new technologies, exploring ideas, and continuously improving through feedback and experience.
                 </span>
                 <span>
-                  I adore the ideas of what I can build through coding. From that point, I started learning web development tools such as <a href="https://react.dev/" target ="_blank" className="underline decoration-primary decoration-2 underline-offset-[3px] text-foreground">React</a> & <a href="https://tailwindcss.com/" target ="_blank" className="underline decoration-primary decoration-2 underline-offset-[3px] text-foreground">Tailwind</a>
+                  I love turning ideas into meaningful digital experiences through code. I started my journey in web development by learning technologies such as React and Tailwind CSS, and have continued to expand my skills across different areas of software development. I currently have experience developing web applications while also exploring .NET and Kotlin to strengthen my overall development skills.
                 </span>
                 <span>
-                  I am a person who is interested in UI/UX Design and Front-End Development. I am passionate about building a career in UI/UX design & development, to which I would bring dedication, enthusiasm and creativity. I am seeing a part-time position in the industry in which I can put into practice my knowledge and experience.
+                  Beyond development, I am interested in UI/UX Design and enjoy combining technical knowledge with creativity to build intuitive and user-friendly digital experiences. I am passionate about continuously learning, growing as a developer, and bringing dedication, enthusiasm, and creativity to every project I work on.
                 </span>
-                <span>
-                Check out the <Link href="/project" className="underline decoration-primary decoration-2 underline-offset-[3px] text-foreground">projects</Link> page to see a highlight of the open-source projects I&apos;ve made, and <Link href="/blog" className="underline decoration-primary decoration-2 underline-offset-[3px] text-foreground">blog</Link> to see everything I&apos;ve written
-
+                <span> I have also participated in and achieved awards through various competitions, which have helped me develop my problem-solving, teamwork, and technical skills. </span> <span> Check out the <Link href="/certificate" className="underline decoration-primary decoration-2 underline-offset-[3px] text-foreground">achievement</Link> page to see some of the competitions and awards I&apos;ve received, the <Link href="/project" className="underline decoration-primary decoration-2 underline-offset-[3px] text-foreground">projects</Link> page to see a highlight of the projects I&apos;ve built, and the <Link href="/blog" className="underline decoration-primary decoration-2 underline-offset-[3px] text-foreground">blog</Link> to see what I&apos;ve written and learned.
                 </span>
               </p>
 
               <div className="flex gap-x-3 pt-4">
-                <Button variant="detail_outline" ><a href="assets/img/cv.png" target="_blank">View CV</a></Button>  
+                <Button variant="detail_outline" ><a href="assets/img/CV_Elvira.png" target="_blank">View CV</a></Button>  
                 <Button variant="primary" className="flex items-center"><FaMessage />&nbsp;&nbsp;<Link href="/contact">Contact Me
                 </Link></Button>
               </div>
@@ -45,11 +43,11 @@ const About = () => {
             <div className="ml-10 w-4/5 sm:w-3/4 md:w-1/3 lg:w-[29%] flex items-center justify-center md:-mr-5 lg:-mr-7 xl:-mr-10">
               <div className="bg-second-background dark:bg-navdark w-3/4 rounded-lg border-b border-border dark:border-navdark  ">
                 <Image
-                  src="/assets/img/techgirl.png"
+                  src="/assets/img/pizza.png"
                   width={1000}
                   height={1000}
                   alt="gambar"
-                  className="transition ease-in-out duration-1000 hover:scale-90  hover:rotate-[8deg] hover:cursor-pointer hover:drop-shadow-techgirl "
+                  className="rounded-lg transition ease-in-out duration-1000 hover:scale-90  hover:rotate-[8deg] hover:cursor-pointer hover:drop-shadow-techgirl "
                   loading="lazy"
                   
                 />

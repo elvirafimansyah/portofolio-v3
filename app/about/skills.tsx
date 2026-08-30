@@ -125,8 +125,21 @@ const Skills = () => {
         
       ]
     },
-    {
+     {
       id: 4,
+      name: "Database",
+      code: [
+      ],
+      code_img: [
+        {
+          name: "MySQL",
+          img: "https://explore-feed.github.com/topics/mysql/mysql.png",
+          url: "https://www.mysql.com/"
+        },
+      ]
+    },
+    {
+      id: 5,
       name: "Tools & Systems",
       code: [
         {
