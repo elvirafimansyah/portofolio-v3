@@ -54,8 +54,8 @@ const NavigationBar = () => {
       link: "/project"
     },
     {
-      title: "Certificates",
-      link: "/certificate"
+      title: "Achievements",
+      link: "/achievement"
     },
     {
       title: "Blog",
