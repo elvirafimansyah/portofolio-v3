@@ -89,7 +89,7 @@ const Blog = () => {
           <div className="flex flex-col md:items-center justify-center md:space-y-0">
             <div className="md:w-3/4 lg:w-full space-y-2 text-center">
               <h1 className="font-bold text-4xl lg:text-title2 tracking-title text-primary">Blog</h1>
-              <p className="text-desc text-lg tracking-desc font-normal pb-3">Some personal opinions on technology and my random thoughts.</p>
+              <p className="text-desc text-base md:text-lg tracking-desc font-normal pb-3">Some personal opinions on technology and my random thoughts.</p>
               <hr className="bg-[#EEF1F6] border-[0.5] border-[#EEF1F6] dark:border-navdark dark:bg-navdark " />
             </div>
             <form className="flex w-full items-center space-x-3 pl-[1px] pt-4 pb-6" onSubmit={(e) => { e.preventDefault(); filterData() }} >

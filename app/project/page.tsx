@@ -24,7 +24,7 @@ const Project = () => {
           <div className="flex flex-col items-center justify-center md:space-y-0">
             <div className="md:w-3/4 lg:w-full space-y-2 text-center">
               <h1 className="font-bold text-4xl lg:text-title2 tracking-title text-primary">Projects</h1>
-              <p className="text-desc text-lg tracking-desc font-normal">A few highlights of my open-source projects. View them all on <a href="https://github.com/elvirafimansyah" target="_blank" className="hover:underline decoration-primary decoration-2 underline-offset-[3px] text-foreground">Github</a> and <a href="https://dribbble.com/ElviraFir" target="_blank" className="hover:underline decoration-primary decoration-2 underline-offset-[3px] text-foreground">Dribbble</a></p>
+              <p className="text-desc text-base md:text-lg tracking-desc font-normal">A few highlights of my open-source projects. View them all on <a href="https://github.com/elvirafimansyah" target="_blank" className="hover:underline decoration-primary decoration-2 underline-offset-[3px] text-foreground">Github</a> and <a href="https://dribbble.com/ElviraFir" target="_blank" className="hover:underline decoration-primary decoration-2 underline-offset-[3px] text-foreground">Dribbble</a></p>
             </div>
             <div className="w-full">
               <Tabs defaultValue={sourceCategories[0]} >

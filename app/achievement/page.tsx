@@ -24,7 +24,7 @@ const Certificate = () => {
             <div className="md:w-3/4 lg:w-full space-y-2  ">
               <div className="flex flex-col justify-center items-center text-center pb-3">
                 <h1 className="font-bold text-4xl lg:text-title2 tracking-title text-primary">Achievements</h1>
-                <p className="text-desc text-lg tracking-desc font-normal  max-w-xl">Recognitions of my achievements and skills, showcasing my journey of learning and growth.</p>
+                <p className="text-desc text-base md:text-lg tracking-desc font-normal  max-w-xl">Recognitions of my achievements and skills, showcasing my journey of learning and growth.</p>
               </div>
               <hr className="bg-[#EEF1F6] border-[0.5] border-[#EEF1F6] dark:border-navdark dark:bg-navdark " />
             </div>
