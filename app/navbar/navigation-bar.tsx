@@ -70,7 +70,7 @@ const NavigationBar = () => {
   return (
     <div>
       <div className="md:hidden">
-        <Sheet >
+        <Sheet > 
           <SheetTrigger><IoMenu size="32px" /></SheetTrigger>
           <SheetContent >
             <SheetHeader>
@@ -85,6 +85,9 @@ const NavigationBar = () => {
                       <Link href={data.link} className="font-medium  ">{data.title}</Link>
                     </SheetClose>
                   ))}
+
+                 <Button variant="primary" ><a href="assets/img/CV_Elvira.png" target="_blank">Resume</a></Button>
+
 
                   <DropdownMenu>
                     <DropdownMenuTrigger asChild>
@@ -116,6 +119,8 @@ const NavigationBar = () => {
               <Link href={data.link} className="font-medium hover:text-primary" key={idx}>{data.title}</Link>
             ))}
 
+          <Button variant="primary" ><a href="assets/img/CV_Elvira.png" target="_blank">Resume</a></Button>
+
           
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -131,7 +136,8 @@ const NavigationBar = () => {
               <DropdownMenuItem onClick={() => setTheme("system")}>System</DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
-
+          
+        
         </div>
 
       </div>
